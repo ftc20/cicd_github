@@ -13,7 +13,7 @@ jobs:
         with: 
           name: cypress-screenshots
           path: cypress/screenshots
-      - uses: action/upload-artifact@v3
+      - uses: actions/upload-artifact@v3
         if: always()
         with:
           name: cypress-videos
